@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+
+:root {
+  /* layout */
+  --bp-phone: 36em;
+  --bp-tablet: 48em;
+  --bp-desktop: 72em;
+
+  /* typography */
+  --ff: "Libre Baskerville", serif;
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  --font-size-base: clamp(1rem, 0.4vw + 0.9rem, 1.19rem);
+  --font-size-sm: clamp(0.8rem, 0.19vw + 0.75rem, 0.89rem);
+  --font-size-lg: clamp(1.56rem, 1.16vw + 1.27rem, 2.11rem);
+  --font-size-md: clamp(1.25rem, 0.71vw + 1.07rem, 1.58rem);
+  --font-size-xl: clamp(1.95rem, 1.83vw + 1.5rem, 2.81rem);
+  --font-size-xxl: clamp(2.44rem, 2.78vw + 1.75rem, 3.75rem);
+  --font-size-xxxl: clamp(3.05rem, 4.14vw + 2.02rem, 5rem);
+
+  /* colors */
+  --clr-neutral-100: #fff;
+  --clr-neutral-200: #f3f3f3;
+  --clr-neutral-300: #e5e5e5;
+  --clr-neutral-400: #d8d8d8;
+  --clr-neutral-700: #7d7d7d;
+  --clr-neutral-900: #000;
+}
+
+/* Josh Comeau CSS reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* type scale: 1.25 - 1.33 */
+h1 {
+  font-size: var(--font-size-xxxl);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+h4 {
+  font-size: var(--font-size-lg);
+}
+
+h5 {
+  font-size: var(--font-size-md);
+}
+
+small {
+  font-size: var(--font-size-sm);
+}
+
+/* CUBE METHODOLOGY */
+/* Composition: the layout */
+
+/* Utility: single-purpose only */
+
+/* Block: the block element styling */
+
+/* Exception: anything out of these three */

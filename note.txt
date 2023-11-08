@@ -3,8 +3,9 @@ Steps:
   - json-server --watch data.json
   -  http://localhost:3000/images
   -  http://localhost:3000/images/{id}
-2. []setup the basic html structure, include an app container to inject the content in inject in it
-3. []setup sass
+2. [X]setup the basic html structure, include an app container to inject the content in inject in it
+  - note: $ before className indicate that it will later change with the dom api
+3. []setup sass (skip it for now)
 4. []setup CSS reset, the CUBE structure and the basic CSS properties
 5. []setup the html structure for homepage and detail page (referring my previous work)
 6. []setup the routes: the gallery and the detail page
