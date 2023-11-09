@@ -29,11 +29,13 @@
   <!-- here is where I place all my templates(page template, component template) -->
   <!-- page template -->
   <template id="home-page-template">
-
+    <h2>This is my homepage</h2>
+    <section aria-description="a list of painting">
+      <ul id="paintings"></ul>
+    </section>
   </template>
 
   <template id="detail-page-template">
-
   </template>
 
   <template id="gallery-page-template">
@@ -43,15 +45,13 @@
   <!-- component template -->
   <!-- note: need to turn this section into a link -->
   <template id="painting-item-template">
-    <a 
-      href="/detail-1"
-      aria-label="painting" 
-      aria-description="painting name by artist, link to its detail"
-    >
-      <h2 id="painting">Painting Name</h2>
-      <p class="painting__artist">Artist Name</p>
-      <img src="#" alt="painting name">
-    </a>
+    <li>
+      <a href="/detail-1" aria-label="painting" aria-description="painting name by artist, link to its detail">
+        <h2 id="painting">Painting Name</h2>
+        <p class="painting__artist">Artist Name</p>
+        <img src="#" alt="painting name">
+      </a>
+    </li>
   </template>
 
 
